@@ -1,0 +1,17 @@
+# Local project data and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+*.key
+secrets/
+credentials/
+
+# Generated deliverables and local scratch data
+deliverables/
+.tmp/
+.cache/
+.DS_Store
+Thumbs.db
